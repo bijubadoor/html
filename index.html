@@ -2,6 +2,51 @@
 <html>
 <head>
 <title>Page Title</title>
+
+<!-- Use the meta charset tag on all webpages -->
+<meta charset="UTF-8">
+
+<!-- The meta description summarizes the page’s content. Search engines often use it for the snippet in search results. -->
+<meta name="description" content="This will often show up in search results. Keep it under 60 characters.">
+
+<!-- Define keywords for search engines: -->
+<meta name="keywords" content="HTML, CSS, JavaScript">
+
+<!-- Define the author of a page: -->
+<meta name="author" content="John Doe">
+
+<!--Note that the content attribute doesn’t have to be set to 
+    width=device-width, initial-scale=1.0,
+    but this is the most common implementation—and the correct one for most pages. -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- The meta robots tag tells search engines if and how they should crawl your web pages. -->
+<meta name="robots" content="index, follow">
+<!--
+    index: tells bots to index the page;
+    noindex: tells bots not to index the page;
+    follow: tells bots to crawl links on the page, and that you also vouch for them;
+    nofollow: tells bots not to crawl links on the page, and that no endorsement is implied.
+-->
+
+<!-- Refresh document every 30 seconds: -->
+<!-- <meta http-equiv="refresh" content="30"> -->
+
+<!-- The content attribute specifies the time delay in seconds. The URL attribute specifies the redirect URL. -->
+<!-- <meta http-equiv="refresh" content="5;url="https://example.com/"> -->
+
+<!-- Link to an external style sheet -->
+<!-- Reset CSS -->
+<link rel="stylesheet" href="./assets/css/reset/html5doctor.css">
+<link rel="stylesheet" href="./assets/css/styles.css">
+
+<!-- Link to an external Javascript -->
+<script type="text/javascript" src="./assets/js/script.js"></script>
+
+<script type="text/javascript">
+    console.log("asdf");
+</script>
+
 </head>
 <body>
 
